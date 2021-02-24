@@ -1,0 +1,35 @@
+Start project with Spring boot, then go to Chrome or browser and hit the below URL
+http://localhost:8080/swagger-ui.html#/
+
+3 API's
+1. saveDepartmentEmployee -- Saves Department and Employees associated with that
+2. getEmployeeByDept  --- Pas Department ID get EmployeeNames associated with that
+3. getDeptByEmp  -- Give Empid as input and it will Return Department Name
+
+Sample Request for Save :
+
+[
+  {
+    "departmentId": 1,
+    "departmentName": "HR",
+    "description": "HR DePT",
+    "employeeDetails": [
+      {
+        "address": "ADRESS 1 2 3",
+        "employeeId": 1,
+        "employeeName": "ABC234",
+        "phoneNumber": "2354646"
+      },
+{
+        "address": "ADDRESS 456",
+        "employeeId": 2,
+        "employeeName": "ABC123",
+        "phoneNumber": "2514548748"
+      }
+    ]
+  }
+]
+
+
+
+
